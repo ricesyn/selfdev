@@ -1,0 +1,83 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: test-526@cobalt-matrix-508807-i0.iam.gserviceaccount.com
+        client_id: '105578915188383389000'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/test-526%40cobalt-matrix-508807-i0.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCnNzcotodZiyOv
+
+          CL8JRGfCB4/WwFNXMgR9fd+LUCS+z3li5XrvmZr7YVXZjVQyVVNO/h/a6pbXaOFn
+
+          JL3pO3wuYHx1ZdIL4fwv16kuH3aJXjnJcMGw5xwQCW4izgvk2+IdaQL5QnyaFqAq
+
+          aUZnapuHIlJgPM4Hg1oLsFp67y+sXh2EfL9NUa+wdLePiipspgTKuEOSCCLmaXX5
+
+          ya/QT/V30JSOB8VavJNhe44e9uEtZ+EAWtZ/cFy2eaJJOS+iKie1FaM6VliAYMLd
+
+          m8MinyhE8KyQTnrVtUXBZg4xqpkdVRNdXG2XBrK53hReGsWDMnsgjXMN7CQoETzr
+
+          qpIkzrEFAgMBAAECggEAAN1Dcvmsje0u8Ejsidz5Z1KYLv08AQugY9CqfuMZaYYT
+
+          g8wZXFMwLqP0aGU3XfI8dcBRBFXplS/02E5jj+jPjcLQad/um8KdhdbIyFT/zRp4
+
+          VH75dVNgfQG7eMEVZSewzcOc8RJjp/09czKrmz29E4/9GoO98eJ/LOfKs+94EN1C
+
+          h7uHxr9Nm/lGXr5pWg+saS4rCQxTOhvBJwh69WaEHoopWmiLehcgHPeuMpBEeIIV
+
+          TB6GF6C5EJEq9LdZZnqus37Ucu32wAu2WHS39gnIKKoafFeIwy83gefGVGdcQzwm
+
+          bQenZTMkt2ww/ZR9uIUQRo/93P/d3svrlvmHsypfsQKBgQDb3KPfMuWJeKsyy9TO
+
+          DlcYLToAfPrI6k00GDhMeMKVMuUgf2Z9rFG7U7yb3lQSAfStkNv0qiDLa/iLSqvU
+
+          8qObZb3GkHuhQPsu4cRlzMaeyZEGImIhEGuFgCGppB5srdnsQia94jlrUkztm39B
+
+          AU6oG47G92J+zNagEIcY36YkdQKBgQDCs1N78xCgb2uMr3gTRerQAiIXFkqLuT5B
+
+          qewUpfovS1HvL8UTDoFcnLucGuBf3uSEVV6arleLyCflxXQjdXYp7pZwlqY/FLoc
+
+          pFF5281uIK2Qjga403k3YJrvF7NYYlJpSN7VyrA/OwyWlyrggg2LIYKZ9Ry7Vnmc
+
+          vxYd3oOIUQKBgQDSkbPE/esGybI1WTC8FNHnTtGBTDGoIXbFkPjCjNnXqUH26O2R
+
+          KWux3NYD9mBQSt07KkTvQ81a5lLJnT+LGMQG/d9PAGvXmfO4B/Rgh0onI+eol1+i
+
+          SSahWoFjBtM4xRy1APo33CWgGtegrc+nw4fAy3voJWCJDsfzz0CEWxa1TQKBgQCR
+
+          liAN5hH/tXD5UNf7qWNMyNuO4ec6FXk9Bn92bSnnpW2N6e12M3l9s+EBeINgjL3Z
+
+          SjCkf0sNRcy3nm8aeKGz9yjc5XlIYApOknwuH7K774l5NwpFuDPCueUAdXtw0oyH
+
+          F6swuBAUJ+Zg0IaKPBU+fP84ejVSy/XBxI0YJqO6EQKBgAvLgut9tIwsvjcogfEy
+
+          U8EVIfBfr3ypTkEbfNdEPnwNdgx2++Eet0UT/9k7V2uCmHZt7ttXNQHWZQsJ454Z
+
+          PHcQGxb4sRlweR8LgK4Ia0uvQM8JXl6b0daGP5ISf9WWVEqEAIwWIVALmsBJaeeE
+
+          NmPUzf5nnLJ64T+OBjesSL5n
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: 04ac82f893ebda55066c5a8bff88c79d625f8a24
+        project_id: cobalt-matrix-508807-i0
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      method: service-account-json
+      project: cobalt-matrix-508807-i0
+      retries: 1
+      schema: dbt_syunan
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default
